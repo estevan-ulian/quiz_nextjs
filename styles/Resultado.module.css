@@ -1,0 +1,22 @@
+.resultado {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.containerResultado {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+    .resultado {
+        font-size: 1.25rem;
+        padding: 2rem .5rem;
+    }
+}

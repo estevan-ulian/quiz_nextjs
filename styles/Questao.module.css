@@ -1,0 +1,11 @@
+.questao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (max-width: 767px) {
+    .questao {
+        width: 100%;
+    }
+}

@@ -1,0 +1,15 @@
+.questionario {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem .5rem;
+}
+
+@media screen and (max-width: 767px) {
+    .questionario {
+        min-height: 100vh;
+    }
+}
